@@ -7,7 +7,6 @@ Welcome to DSpace, a web journey that brings the marvels of our solar system rig
 ## Features
 
 - **Responsive Design**: Ensures a seamless viewing experience across all devices.
-- **Interactive UI**: Engage with the planets through beautiful images and captivating facts.
 - **Educational Content**: Learn interesting facts about each planet, including their discovery, composition, and more.
 - **Navigation**: Easy-to-use menu to swiftly move between sections or planets.
 - **Accessibility**: Designed with accessibility in mind to cater to all users.
