@@ -1,0 +1,246 @@
+*{
+  font-family:"Poppins" ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-image:url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed ;
+}
+.LOGO{
+  color:#18a976;
+  font-size:40px;
+}
+
+header{
+  /* background-color: #252d41ad ; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px ;
+}
+.navi a{
+  color:#c8bda4 ;
+  font-size: 1.35em;
+  font-weight:500;
+  padding: 25px 25px 22px 25px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.navi a:hover{
+  color:#18a976 ;
+  /* background-color: #1d2438ad; */
+}
+
+.title_sentence{
+  /* color: rgb(51, 143, 143); */
+  padding:140px 600px 0 0; 
+  width: 100%;  
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+  align-items: right; 
+  height: 70vh;  
+}
+.title{
+  color: #18a976;
+  font-size: 65px;
+  letter-spacing: 1px;
+}
+.title span{
+  padding: 0 0 0 40px;
+  font-size: 30px;
+  color: aliceblue;
+}
+.start{
+  padding: 25%;
+  padding-top: 00;
+  background-color: rgba(0, 0, 0, 0.475);
+}
+/* the next section which has the planets */
+.First_row{
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+/* MERCURY */
+.mer{
+  position: absolute;
+  left: 50px;
+  background-color: rgba(0, 0, 0, 0.499); 
+  padding: 30px 30px 30px 30px;
+  transition: 0.6s ease;
+}
+.merimg{
+  width: 550px; 
+}
+.EX_mer{
+  color: aliceblue;
+  font-size: 40px;
+}
+.EX_mer span{
+  color: aliceblue;
+  font-size: 20px;
+}
+.mer:hover{
+  background-color: rgba(0, 0, 0, 0.697);
+  transform: scale(1.15);
+}
+
+/* VENUS */
+.ven{
+  
+  position: absolute;
+  left: 700px;
+  background-color: rgba(0, 0, 0, 0.499);
+  padding: 30px 30px 30px 30px;
+  transition: 0.6s ease;
+}
+.venimg{
+  width: 500px; 
+}
+.EX_ven{
+  color: aliceblue;
+  font-size: 40px;
+}
+.EX_ven span{
+  color: aliceblue;
+  font-size: 20px;
+}
+.ven:hover{
+  background-color: rgba(0, 0, 0, 0.697);
+  transform: scale(1.15);
+}
+
+/* earth */
+.ear{
+  
+  position: absolute;
+  left: 1299px;
+  background-color: rgba(0, 0, 0, 0.499);
+  padding: 30px 30px 30px 30px;
+  transition: 0.6s ease;
+}
+.earimg{
+  width: 500px; 
+}
+.EX_ear{
+  color: aliceblue;
+  font-size: 40px;
+}
+.EX_ear span{
+  color: aliceblue;
+  font-size: 20px;
+}
+.ear:hover{
+  background-color: rgba(0, 0, 0, 0.697);
+  transform: scale(1.13);
+}
+
+/* second row */
+.Second_row{
+  padding-top: 500px;
+}
+/* Mars */
+.mar{
+  position: absolute;
+  left: 50px;
+  background-color: rgba(0, 0, 0, 0.499);
+  padding: 30px 30px 30px 30px;
+  transition: 0.6s ease;
+}
+.marimg{
+  width: 550px; 
+}
+.EX_mar{
+  color: aliceblue;
+  font-size: 40px;
+}
+.EX_mar span{
+  color: aliceblue;
+  font-size: 20px;
+}
+.mar:hover{
+  background-color: rgba(0, 0, 0, 0.697);
+  transform: scale(1.13);
+}
+
+/* Jupiter */
+.jup{
+  
+  position: absolute;
+  left: 700px;
+  background-color: rgba(0, 0, 0, 0.499);
+  padding: 30px 30px 30px 30px;
+  transition: 0.6s ease;
+}
+.jupimg{
+  width: 500px; 
+}
+.EX_jup{
+  color: aliceblue;
+  font-size: 40px;
+}
+.EX_jup span{
+  color: aliceblue;
+  font-size: 20px;
+}
+.jup:hover{
+  background-color: rgba(0, 0, 0, 0.697);
+  transform: scale(1.13);
+}
+
+/* Saturn */
+.sat{
+  
+  position: absolute;
+  left: 1299px;
+  background-color: rgba(0, 0, 0, 0.499);
+  padding: 30px 30px 30px 30px;
+  transition: 0.6s ease;
+}
+.satimg{
+  width: 500px; 
+}
+.EX_sat{
+  color: aliceblue;
+  font-size: 40px;
+}
+.EX_sat span{
+  color: aliceblue;
+  font-size: 20px;
+}
+.sat:hover{
+  background-color: rgba(0, 0, 0, 0.697);
+  transform: scale(1.13);
+}
+
+/* @media (max-width:1023px){
+  header{
+    padding: 10px 2000px 00 100px;
+    width: 100%;
+    /* flex-direction: column;
+    align-items: center; */
+    /* font-size:75px; 
+  }
+  .LOGO{
+    font-size: 80px;
+  }
+  .navi{
+    padding-left: 50px;
+    justify-content:space-between;
+    flex-direction: row;
+  }
+} */ 
+
+@media(max-width:853px){
+  header{
+    padding: 500px;
+  }
+}
